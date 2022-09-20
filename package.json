@@ -1,0 +1,44 @@
+{
+  "name": "package",
+  "description": "description",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "eslintConfig": {
+    "extends": [
+      "eslint:recommended",
+      "plugin:@typescript-eslint/recommended",
+      "prettier"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "plugins": [
+      "@typescript-eslint"
+    ],
+    "root": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexthemaster/Yarn-TypeScript-ESLint-Prettier.git"
+  },
+  "keywords": [
+    "daunroda",
+    "daunroda-app"
+  ],
+  "author": "Alex Kovacs (alexdemaster@proton.me)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexthemaster/Yarn-TypeScript-ESLint-Prettier/issues"
+  },
+  "homepage": "https://github.com/alexthemaster/Yarn-TypeScript-ESLint-Prettier#readme",
+  "packageManager": "yarn@3.2.3",
+  "devDependencies": {
+    "@tsconfig/node16": "^1.0.3",
+    "@typescript-eslint/eslint-plugin": "^5.38.0",
+    "@typescript-eslint/parser": "^5.38.0",
+    "eslint": "^8.23.1",
+    "eslint-config-prettier": "^8.5.0",
+    "typescript": "^4.8.3"
+  }
+}
