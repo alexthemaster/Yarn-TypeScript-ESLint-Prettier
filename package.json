@@ -23,8 +23,6 @@
     "url": "git+https://github.com/alexthemaster/Yarn-TypeScript-ESLint-Prettier.git"
   },
   "keywords": [
-    "daunroda",
-    "daunroda-app"
   ],
   "author": "Alex Kovacs (alexdemaster@proton.me)",
   "license": "MIT",
